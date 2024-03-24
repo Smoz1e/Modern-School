@@ -1,0 +1,76 @@
+html {
+    background: var(--bg-color);
+}
+
+body{
+    background: var(--bg-color);
+    margin-top:20px;
+}
+
+.main-cont {
+    margin-top: 110px !important;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: var(--frame-color);
+    background-clip: border-box;
+    border: 1px solid var(--main-color);
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+}
+.me-2 {
+    margin-right: .5rem!important;
+}
+
+.main-button {
+  transition: 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
+  display: inline-block;
+  background-color: var(--main-color);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--frame-color);
+  text-transform: capitalize;
+  padding: 12px 25px;
+  border-radius: 12px;
+  letter-spacing: 0.25px;
+}
+.main-unhighlight-button {
+  transition: 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
+  display: inline-block;
+  background-color: var(--frame2-color);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-color);
+  text-transform: capitalize;
+  padding: 12px 25px;
+  border-radius: 12px;
+  letter-spacing: 0.25px;
+}
+.main-unhighlight-button :hover {
+  background-color: var(--frame-color);
+  color: var(--main-color);
+}
+.main-red-button :hover {
+  background-color: var(--frame2-color);
+  color: var(--main-color);
+}
+
+.bg-primary {
+    background: var(--main-color);
+    width: 235px !important;
+}
+.my-4 {
+    background: var(--main-color) !important;
+    opacity: 1;
+}
+
+.bg-unfocused {
+    color: var(--bg-unfocused) !important;
+}
+.bg-unfocused2 {
+    color: var(--bg-unfocused2) !important;
+}

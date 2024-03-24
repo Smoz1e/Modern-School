@@ -1,0 +1,29 @@
+.main-banner {
+	margin-top: 110px;
+}
+.section-heading h2 em {
+  font-style: normal;
+  background-color: var(--main-color) !important;
+  color: var(--bg-color) !important;
+  padding: 12px;
+  border-radius: 12px;
+}
+.tasks-icon {
+	width: 38px;
+	height: 38px;
+	padding: 15px;
+	background: var(--main-color);
+	border-radius: 12px;
+	color: var(--bg-color);
+}
+
+.right-text p {
+	margin-top:  -10px;
+}
+.marginchanged {
+	padding-top: 12px;
+	padding-bottom: 22px;
+}
+.contact-us h2, .contact-us p {
+	color: var(--text-color) !important;
+}
